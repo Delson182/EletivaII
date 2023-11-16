@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d22e2e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#content {
+    margin: 20px;
+}
+
+.tip {
+    display: none;
+    text-align: center; /* Adicionado para centralizar o conteúdo */
+}
+
+.tip img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block; /* Para centralizar a imagem horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #333;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#botao-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Cor de fundo do botão */
+            color: white; /* Cor do texto do botão */
+            text-decoration: none; /* Remove o sublinhado padrão de links */
+            font-size: 16px;
+            border: none; /* Remove a borda do botão */
+            border-radius: 5px; /* Adiciona cantos arredondados */
+            cursor: pointer;
+        }
+
+#botao-link:hover {
+	background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+#rodape {
+            background-color: #d22e2e; /* Cor de fundo do rodapé */
+            color: white; /* Cor do texto do rodapé */
+            text-align: center; /* Centraliza o texto no rodapé */
+            padding: 10px; /* Espaçamento interno do rodapé */
+            width: 100%; /* Largura total do rodapé */
+            bottom: 0; /* Alinha o rodapé ao final da página */
+        }
